@@ -1,7 +1,7 @@
 {
-    "name": "vuejs-webpack-template",
+    "name": "@devyr/vuejs-webpack-template",
     "version": "1.0.0",
-    "description": "VuewJS Webpack template with vue-loader and vue-router setup with production and release webpack configurations.",
+    "description": "VuewJS webpack template with vue-loader, vue-router and vue-resource setup with development and production webpack configurations.",
     "main": "./src/app.js",
     "scripts": {
         "dev": "webpack-dev-server --config ./config/webpack.dev.config.js",
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/devyr/vuejs-webpack-template.git"
+        "url": "git+https://github.com/devyr/vuejs-webpack-template.git"
     },
     "keywords": [
         "vue",
@@ -39,5 +39,9 @@
     },
     "dependencies": {
         "vue": "^2.6.8"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/devyr/vuejs-webpack-template/issues"
+    },
+    "homepage": "https://github.com/devyr/vuejs-webpack-template#readme"
 }
