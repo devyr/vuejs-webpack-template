@@ -24,15 +24,13 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader'
-      },
-      {
+      }, {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
         }
-      },
-      {
+      }, {
         test: /\.html$/,
         use: [
           {
@@ -40,8 +38,7 @@ module.exports = {
             options: { minimize: true }
           }
         ]
-      },
-      {
+      }, {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader']
       }, {
@@ -50,8 +47,7 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
-      },
-      {
+      }, {
         test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
         loader: "url-loader?limit=10000&mimetype=application/font-woff"
       }, {
