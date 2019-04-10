@@ -1,49 +1,49 @@
 {
-    "name": "@devyr/vuejs-webpack-template",
-    "version": "1.0.0",
-    "description": "VuewJS webpack template with vue-loader, vue-router and vue-resource setup with development and production webpack configurations.",
-    "main": "./src/app.js",
-    "scripts": {
-        "dev": "webpack-dev-server --config ./config/webpack.dev.config.js",
-        "release": "webpack --config ./config/webpack.release.config.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/devyr/vuejs-webpack-template.git"
-    },
-    "keywords": [
-        "vue",
-        "vue.js",
-        "vuejs",
-        "webpack",
-        "template"
-    ],
-    "author": "devyr",
-    "license": "MIT",
-    "devDependencies": {
-        "@babel/core": "^7.3.4",
-        "@babel/preset-env": "^7.3.4",
-        "babel-loader": "^8.0.5",
-        "css-loader": "^2.1.0",
-        "file-loader": "^3.0.1",
-        "html-loader": "^0.5.5",
-        "html-webpack-plugin": "^3.2.0",
-        "mini-css-extract-plugin": "^0.5.0",
-        "url-loader": "^1.1.2",
-        "vue-loader": "^15.6.4",
-        "vue-resource": "^1.5.1",
-        "vue-router": "^3.0.2",
-        "vue-template-compiler": "^2.6.7",
-        "webpack": "^4.29.5",
-        "webpack-cli": "^3.2.3",
-        "webpack-dev-server": "^3.2.1"
-    },
-    "dependencies": {
-        "vue": "^2.6.8"
-    },
-    "bugs": {
-        "url": "https://github.com/devyr/vuejs-webpack-template/issues"
-    },
-    "homepage": "https://github.com/devyr/vuejs-webpack-template#readme"
+  "name": "@devyr/vuejs-webpack-template",
+  "version": "1.0.0",
+  "description": "VuewJS webpack template with vue-loader, vue-router and vue-resource setup with development and production webpack configurations.",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./config/webpack.dev.config.js",
+    "release": "webpack --config ./config/webpack.release.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devyr/vuejs-webpack-template.git"
+  },
+  "keywords": [
+    "vue",
+    "vue.js",
+    "vuejs",
+    "webpack",
+    "template"
+  ],
+  "author": "devyr",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.6.4",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.6.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.8"
+  },
+  "bugs": {
+    "url": "https://github.com/devyr/vuejs-webpack-template/issues"
+  },
+  "homepage": "https://github.com/devyr/vuejs-webpack-template#readme"
 }

@@ -7,8 +7,8 @@ import router from './router';
 Vue.use(VueResource);
 
 new Vue({
-    el: '#app',
-    router,
-    components: { App },
-    template: '<App />'
+  el: '#app',
+  router,
+  components: { App },
+  template: '<App />'
 });
