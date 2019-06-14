@@ -1,6 +1,6 @@
 {
   "name": "@devyr/vuejs-webpack-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "VuewJS webpack template with vue-loader, vue-router and vue-resource setup with development and production webpack configurations.",
   "main": "./src/app.js",
   "scripts": {
